@@ -21,6 +21,8 @@ public:
     /// \param numbers The numbers to use
     /// \return The amount of odd numbers
     static int getOddCount(const list<int> &numbers);
+
+    static int getZeroCount(list<int> list);
 };
 
 
