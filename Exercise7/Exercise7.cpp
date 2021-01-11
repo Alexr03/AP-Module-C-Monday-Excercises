@@ -23,7 +23,7 @@ void Exercise7::execute() {
     int zeroNumbers = mathshelper::getZeroCount(numbers);
     cout << "Even numbers: " << evenNumbers << std::endl;
     cout << "Odd numbers: " << oddNumbers << std::endl;
-    cout << "Zero numbers: " << oddNumbers << std::endl;
+    cout << "Zero numbers: " << zeroNumbers << std::endl;
 }
 
 string Exercise7::name() {
