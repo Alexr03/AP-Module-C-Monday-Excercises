@@ -8,3 +8,4 @@
  - Retirement Age (Exercise 5)
  - Karvonen Heart Rate Calculator (Exercise 6)
  - Zero, Positive & Negative Type Counter (Exercise 7)
+ - Lowest and Largest values (Exercise 8)

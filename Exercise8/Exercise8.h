@@ -6,11 +6,16 @@
 #define ADAADVANCEDPROGRAMMING_1_EXERCISE8_H
 
 
+#include "list"
 #include "../Exercise.h"
 
 class Exercise8 : public Exercise {
 public:
     void execute() override;
+
+    static int calculateLargestValue(std::list<int> list);
+
+    static int calculateLowestValue(std::list<int> list);
 };
 
 
