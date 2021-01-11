@@ -7,3 +7,4 @@
  - Odd or Even number (Exercise 4)
  - Retirement Age (Exercise 5)
  - Karvonen Heart Rate Calculator (Exercise 6)
+ - Zero, Positive & Negative Type Counter (Exercise 7)

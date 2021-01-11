@@ -11,6 +11,7 @@
 using namespace std;
 
 class mathshelper {
+public:
     static int getEvenCount(const list<int>& numbers);
 
     static int getOddCount(const list<int> &numbers);

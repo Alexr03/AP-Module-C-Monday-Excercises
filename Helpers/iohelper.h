@@ -12,7 +12,7 @@ using namespace std;
 
 class iohelper {
 public:
-    static std::string getInput(string question = "");
+    static std::string getInput(string question = "", const string& regex = "");
 };
 
 
