@@ -18,8 +18,8 @@ void Exercise7::execute() {
         numbers.push_front(stof(value));
     }
 
-    int evenNumbers = mathshelper::getEvenCount(numbers);
-    int oddNumbers = mathshelper::getOddCount(numbers);
+    int evenNumbers = mathshelper::getNegativeCount(numbers);
+    int oddNumbers = mathshelper::getPositivesCount(numbers);
     int zeroNumbers = mathshelper::getZeroCount(numbers);
     cout << "Even numbers: " << evenNumbers << std::endl;
     cout << "Odd numbers: " << oddNumbers << std::endl;

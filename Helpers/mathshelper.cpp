@@ -8,22 +8,22 @@
 
 using namespace std;
 
-int mathshelper::getEvenCount(const list<int> &numbers) {
+int mathshelper::getNegativeCount(const list<int> &numbers) {
     vector<int> numberVector(numbers.begin(), numbers.end());
     int count = 0;
     for (int i = 0; i < numbers.size(); ++i) {
-        if (numberVector[i] % 2 == 0) {
+        if (numberVector[i] <= -1) {
             count++;
         }
     }
     return count;
 }
 
-int mathshelper::getOddCount(const list<int> &numbers) {
+int mathshelper::getPositivesCount(const list<int> &numbers) {
     vector<int> numberVector(numbers.begin(), numbers.end());
     int count = 0;
     for (int i = 0; i < numbers.size(); ++i) {
-        if (numberVector[i] % 2 != 0) {
+        if (numberVector[i] >= 1) {
             count++;
         }
     }

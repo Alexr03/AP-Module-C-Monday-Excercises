@@ -15,12 +15,12 @@ public:
     /// Get the even amount of numbers in a list.
     /// \param numbers The numbers to use
     /// \return The amount of even numbers
-    static int getEvenCount(const list<int>& numbers);
+    static int getNegativeCount(const list<int>& numbers);
 
     /// Get the odd amount of numbers in a list.
     /// \param numbers The numbers to use
     /// \return The amount of odd numbers
-    static int getOddCount(const list<int> &numbers);
+    static int getPositivesCount(const list<int> &numbers);
 
     static int getZeroCount(list<int> list);
 };
