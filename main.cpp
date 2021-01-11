@@ -1,7 +1,8 @@
 #include "Exercise3/Exercise3.h"
+#include "Exercise4/Exercise4.h"
 
 int main() {
-    auto* exercise3 = new Exercise3();
-    exercise3->execute();
+    auto* exercise = new Exercise4();
+    exercise->execute();
     return 0;
 }
