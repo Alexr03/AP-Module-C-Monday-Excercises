@@ -14,8 +14,14 @@ public:
 
     std::string name() override;
 
+    /// Converts Celsius to Fahrenheit
+    /// \param temperature Celsius
+    /// \return Fahrenheit
     static double convertCelsiusToFahrenheit(double temperature);
 
+    /// Converts Fahrenheit to Celsius
+    /// \param temperature Fahrenheit
+    /// \return Celsius
     static double convertFahrenheitToCelsius(double temperature);
 };
 

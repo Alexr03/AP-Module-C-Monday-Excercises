@@ -15,8 +15,14 @@ public:
 
     std::string name() override;
 
+    /// Calculates the largest value in the list
+    /// \param list
+    /// \return Largest value
     static int calculateLargestValue(std::list<int> list);
 
+    /// Calculates the lowest value in the list
+    /// \param list
+    /// \return lowest value
     static int calculateLowestValue(std::list<int> list);
 };
 

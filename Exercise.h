@@ -10,8 +10,11 @@
 
 class Exercise {
 public:
+    /// Code to execute for this exercise.
     virtual void execute();
 
+    /// The name of the exercise.
+    /// \return
     virtual std::string name();
 };
 

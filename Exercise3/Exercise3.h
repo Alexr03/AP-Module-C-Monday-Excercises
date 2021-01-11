@@ -14,6 +14,10 @@ public:
 
     std::string name() override;
 
+    /// Calculate square foot from the length and width given
+    /// \param length
+    /// \param width
+    /// \return The square foot.
     static int calculateSquareFoot(int length, int width);
 
     static double calculateSquareMeters(int squareFoot);

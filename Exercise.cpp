@@ -5,7 +5,6 @@
 #include "Exercise.h"
 
 void Exercise::execute() {
-
 }
 
 std::string Exercise::name() {

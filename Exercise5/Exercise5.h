@@ -14,6 +14,8 @@ public:
 
     std::string name() override;
 
+    /// Gets the current year
+    /// \return Current year.
     static int getCurrentYear();
 };
 
