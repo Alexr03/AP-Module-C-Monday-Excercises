@@ -12,6 +12,8 @@ class Exercise3 : public Exercise {
 public:
     void execute() override;
 
+    std::string name() override;
+
     static int calculateSquareFoot(int length, int width);
 
     static double calculateSquareMeters(int squareFoot);

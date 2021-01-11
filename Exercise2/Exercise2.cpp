@@ -19,6 +19,10 @@ void Exercise2::execute() {
     }
 }
 
+string Exercise2::name() {
+    return "Fahrenheit Centigrade Conversion";
+}
+
 double Exercise2::convertCelsiusToFahrenheit(double temperature) {
     return (temperature * 9 / 5) + 32;
 }

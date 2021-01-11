@@ -12,6 +12,8 @@ class Exercise2 : public Exercise {
 public:
     void execute() override;
 
+    std::string name() override;
+
     static double convertCelsiusToFahrenheit(double temperature);
 
     static double convertFahrenheitToCelsius(double temperature);

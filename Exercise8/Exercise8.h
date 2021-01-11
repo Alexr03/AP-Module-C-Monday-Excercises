@@ -13,6 +13,8 @@ class Exercise8 : public Exercise {
 public:
     void execute() override;
 
+    std::string name() override;
+
     static int calculateLargestValue(std::list<int> list);
 
     static int calculateLowestValue(std::list<int> list);

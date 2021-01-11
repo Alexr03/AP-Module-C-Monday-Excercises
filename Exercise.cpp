@@ -7,3 +7,7 @@
 void Exercise::execute() {
 
 }
+
+std::string Exercise::name() {
+    return std::string();
+}

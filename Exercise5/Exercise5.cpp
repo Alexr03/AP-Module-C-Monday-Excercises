@@ -21,3 +21,7 @@ int Exercise5::getCurrentYear() {
     tm *timePtr = localtime(&t);
     return timePtr->tm_year + 1900; // Time since 1900
 }
+
+string Exercise5::name() {
+    return "Retirement Age";
+}

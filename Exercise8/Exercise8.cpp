@@ -50,3 +50,7 @@ int Exercise8::calculateLowestValue(std::list<int> list) {
     }
     return lowest;
 }
+
+string Exercise8::name() {
+    return "Lowest and Largest values";
+}

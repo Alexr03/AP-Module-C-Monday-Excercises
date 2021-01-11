@@ -23,3 +23,7 @@ void Exercise7::execute() {
     cout << "Even numbers: " << evenNumbers << std::endl;
     cout << "Odd numbers: " << oddNumbers << std::endl;
 }
+
+string Exercise7::name() {
+    return "Zero, Positive & Negative Type Counter";
+}

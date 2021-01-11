@@ -14,3 +14,7 @@ void Exercise1::execute() {
 
     cout << whoSaidQuote << " says: \"" << quote << "\"";
 }
+
+string Exercise1::name() {
+    return "Quote a quote";
+}

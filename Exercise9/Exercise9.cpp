@@ -28,3 +28,7 @@ void Exercise9::execute() {
         }
     }
 }
+
+string Exercise9::name() {
+    return "Character Type Checker";
+}

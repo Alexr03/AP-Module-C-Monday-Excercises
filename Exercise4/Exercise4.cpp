@@ -13,3 +13,7 @@ void Exercise4::execute() {
         cout << value << " is an odd number";
     }
 }
+
+string Exercise4::name() {
+    return "Odd or Even number";
+}

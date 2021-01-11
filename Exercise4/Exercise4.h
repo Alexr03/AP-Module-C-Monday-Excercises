@@ -10,6 +10,9 @@
 
 class Exercise4 : public Exercise {
 public:
+    std::string name() override;
+
+public:
     void execute() override;
 };
 

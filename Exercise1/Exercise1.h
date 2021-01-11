@@ -11,6 +11,8 @@
 class Exercise1 : public Exercise {
 public:
     void execute() override;
+
+    std::string name() override;
 };
 
 

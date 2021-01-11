@@ -17,3 +17,7 @@ void Exercise6::execute() {
         cout << i << "% = " << targetRate << std::endl;
     }
 }
+
+string Exercise6::name() {
+    return "Karvonen Heart Rate Calculator";
+}

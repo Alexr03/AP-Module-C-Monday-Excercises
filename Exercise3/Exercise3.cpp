@@ -23,3 +23,7 @@ int Exercise3::calculateSquareFoot(int length, int width) {
 double Exercise3::calculateSquareMeters(int squareFoot) {
     return squareFoot / 10.764;
 }
+
+string Exercise3::name() {
+    return "Area of a Rectangle Room";
+}
