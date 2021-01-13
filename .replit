@@ -1,0 +1,2 @@
+language = "cpp"
+run = "cd build && cmake ../ && cmake --build . && mv AdaAdvancedProgramming_1 ../AdaAdvancedProgramming_1 && cd .. && ./AdaAdvancedProgramming_1"
